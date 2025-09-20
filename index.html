@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simulated Vulnerability Scanner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scanner-container">
+    <h1>🛡️ Vulnerability Scanner</h1>
+    <input type="text" id="targetInput" placeholder="Enter IP or domain">
+    <button onclick="startScan()">Scan</button>
+
+    <div id="results" class="results hidden">
+      <h2>Scan Results:</h2>
+      <ul id="vulnList"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
